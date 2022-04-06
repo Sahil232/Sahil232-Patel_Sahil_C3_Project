@@ -46,7 +46,7 @@ class RestaurantTest {
         spoof = restaurant.getMenu();
         assertEquals(175, restaurant.getOrderValue(spoof));
     }
-
+  /// everything is done///
     @Test
     public void order_value_should_reduce_cumulative_total_when_an_item_removed() {
         restaurantCreation();
